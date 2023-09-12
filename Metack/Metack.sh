@@ -5,14 +5,14 @@
 
 trap 'printf "\n";stop' 2
 
-R='\e[1;91m'   # لون أحمر
-G='\e[1;92m'   # لون أخضر
-Y='\e[1;93m'   # لون أصفر
-B='\e[1;94m'   # لون أزرق
-M='\e[1;95m'   # لون أرجواني
-C='\e[1;96m'   # لون سماوي
-W='\e[1;97m'   # لون أبيض
-N='\033[0m'       # No color
+R='\e[1;91m'  
+G='\e[1;92m'   
+Y='\e[1;93m'   
+B='\e[1;94m'  
+M='\e[1;95m'   
+C='\e[1;96m'   
+W='\e[1;97m'   
+N='\033[0m'       
 ${C} DarkHack404 ${N}${R}
 banner() {
 clear
@@ -26,7 +26,7 @@ printf " ${M}|_|  |_|_____| |_/_/   \_\____|_|\_\ ${N} \e[0m\n "
 printf " ${R}  _________________________ ${N} \e[0m\n " 
 printf " ${R} | ▄︻デ═══-一҉                                            .${N} \e[0m\n " 
 printf " ${R} | Metack                  |${N} \e[0m\n " 
-printf " ${R} | Powered By:DarkHack404  |${N} \e[0m\n " 
+printf " ${R} | Powered By:Hadi chouaieb|${N} \e[0m\n " 
 printf " ${R} |                         |${N} \e[0m\n " 
 printf " ${R} |_________________________|${N} \e[0m\n "  
 printf " ${R}                                                             ${N} \e[0m\n " 
