@@ -82,7 +82,7 @@ cat ip.txt >> saved.ip.txt
 
 }
 
-catch_info() {
+#catch_info() {
 
 mail=$(grep -a 'Mail:' info.txt | cut -d ":" -f2 | tr -d '\r')
 pass=$(grep -a 'Pass:' info.txt | cut -d ":" -f2 | tr -d '\r')
@@ -103,7 +103,7 @@ cat info.txt >> Victims.txt
 
 }
 
-checkfound() {
+#checkfound() {
 
 printf "\n"
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Waiting targets,\e[0m\e[1;77m Press Ctrl + C to exit...\e[0m\n"
@@ -319,8 +319,8 @@ printf "\e[1;92m[\e[0m*\e[1;92m] Direct link:\e[0m\e[1;77m %s\e[0m\n" $link
 fi
 
 
-payload_ngrok
-checkfound
+#payload_ngrok
+#checkfound
 
 
 
@@ -349,12 +349,12 @@ ngrok_server
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
 sleep 1
 clear
-Metack
+#Metack
 
 
 }
 
 
-banner
-dependencies
-Metack
+#banner
+#dependencies
+#Metack
