@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&family=Poppins:wght@500&display=swap');
+.imf{
+    width: 120px;
+    margin-top: 20px;
+}
+div{
+    margin-top: -20px;
+    padding:0px ;
+    font-size: 25px;
+
+}
+p{
+    font-size: 18px;
+}
+.create{
+    color: #007bff;
+    font-family: 'Poppins', sans-seri;
+    font-size: 14px;
+}
+.create:hover{
+    color: #007bff;
+    background-color: #cbd8e733;
+    font-family: 'Poppins', sans-seri;
+    font-size: 14px;
+}
+.butt{
+    width: 90px;
+    background-color: #007bff;
+    position: relative;
+    margin-left: 100px;
+}
+.ff{
+    font-size: 14px;
+    font-family: 'Poppins', sans-seri;
+    color: rgba(128, 128, 128, 0.788);
+    width: 300Px;
+}
+
+.forget{
+    position: relative;
+    left:-110px;
+    top:-20px;
+}
+
+a{
+    
+    font-family: 'Poppins', sans-seri;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+input{
+    font-size: 14px;
+    border-radius: 5px;
+    width: 500px;
+}
+input:focus{
+    border: 2px solid #007bff;
+}
+
+input:focus > input::placeholder{
+    color: rebeccapurple;
+}
+
+
+
+input::placeholder{
+    font-size: 15px;
+}
+.input-container {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+}
+
+.animated-input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.637);
+    
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.animated-input:focus + label {
+    top: -20px;
+    font-size: 15px;
+    color: #007bff;
+    
+}
+
+label {
+    position: absolute;
+    top: 17px;
+    left: 0;
+    font-size: 13px;
+    color: #99999900;
+    transition: top 0.1s ease-in-out, font-size 0.1s ease-in-out, color 0.1s ease-in-out;
+}
